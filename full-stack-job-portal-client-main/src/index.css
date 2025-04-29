@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #247BF7;
+    --color-secondary: #F7921E;
+    --color-accent: #5f14c7;
+    --color-neutral: rgb(255, 211, 255);
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: rgba(0, 0, 0, 0.305) 0;
+    --color-danger: red;
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+    --shadow-medium: rgba(0, 0, 0, 0.2);
+    --shadow-light: rgba(0, 0, 0, 0.1);
+}
